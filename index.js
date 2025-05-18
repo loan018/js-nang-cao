@@ -18,7 +18,7 @@ function xdata(student){
             <td><img src="${student.img}" alt="" style="height: 100px;"></td>
             <td>
               <button onClick=DelStudent(${student.id}) class="btn btn-danger">Xóa</button>
-              <button class="btn btn-warning">Sửa</button>
+              <button class="btn btn-warning"><a href='/add.html?id=${student.id}'>Sửa</a></button>
             </td>
           </tr>
   `
