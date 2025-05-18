@@ -1,25 +1,18 @@
 {
   "student": [
     {
-      "id":1,
+      "id": 1,
       "name": "Loan",
-      "age":20,
-      "msv":"Ph52441",
-      "img":"https://images.pexels.com/photos/1326946/pexels-photo-1326946.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "age": 20,
+      "msv": "Ph52441",
+      "img": "https://images.pexels.com/photos/1326946/pexels-photo-1326946.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Loan",
-      "age":20,
-      "msv":"Ph52441",
-      "img":"https://images.pexels.com/photos/1326946/pexels-photo-1326946.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id":3,
-      "name": "Loan",
-      "age":20,
-      "msv":"Ph52441",
-      "img":"https://images.pexels.com/photos/1326946/pexels-photo-1326946.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "age": 20,
+      "msv": "Ph52441",
+      "img": "https://images.pexels.com/photos/1326946/pexels-photo-1326946.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ],
   "users": []

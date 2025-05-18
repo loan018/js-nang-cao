@@ -1,3 +1,4 @@
+
 async function getList() {
 try {
     const res = await axios.get(`http://localhost:3000/student`)
@@ -16,7 +17,7 @@ function xdata(student){
             <td>${student.msv}</td>
             <td><img src="${student.img}" alt="" style="height: 100px;"></td>
             <td>
-              <button class="btn btn-danger">Xóa</button>
+              <button onClick=DelStudent(${student.id}) class="btn btn-danger">Xóa</button>
               <button class="btn btn-warning">Sửa</button>
             </td>
           </tr>
@@ -24,3 +25,14 @@ function xdata(student){
 }
 }
 getList();
+async function DelStudent(id) {
+  try {
+    if(confirm("Bạn có chắc muốn xóa không?")){
+    await axios.delete(`http://localhost:3000/student/${id}`)
+    alert("Xóa thành công")
+  }
+  } catch (error) {
+     console.error(error)
+  }
+}
+
