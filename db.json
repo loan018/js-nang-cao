@@ -22,5 +22,11 @@
       "id": 3
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "loanptph52441@gmail.com",
+      "password": "$2a$10$Jz4YHSWQSwBYsTWVYM61DOk0HAWc.PvIvaAkWARH7s8LF1GGD1Vdy",
+      "id": 1
+    }
+  ]
 }
